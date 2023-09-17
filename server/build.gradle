@@ -45,8 +45,8 @@ dependencies {
 
     runtimeOnly "org.glassfish.jaxb:jaxb-runtime:${revJAXB}"
 
-    runtimeOnly group: 'com.netflix.conductor', name: 'conductor-common-persistence', version: '3.13.2'
-    runtimeOnly group: 'com.netflix.conductor', name: 'conductor-postgres-persistence', version: '3.13.2'
+    runtimeOnly group: 'com.netflix.conductor', name: 'conductor-common-persistence', version: '3.13.8'
+    runtimeOnly group: 'com.netflix.conductor', name: 'conductor-postgres-persistence', version: '3.13.8'
 
     testImplementation project(':conductor-rest')
     testImplementation project(':conductor-common')
